@@ -25,5 +25,22 @@ module.exports = function getZerosCount(number) {
   }
   return z;
 
+    // вариант по материалам с сайта http://www.smekalka.pp.ru/math/answer_math_calc_12.html
+  // var f = number;
+  // var n = 1;
+  // var a;
+  // var b = 0;
+  // 
+  // for (n; n<=f/5; n++){
+  //   a = f/Math.pow(5,n);
+  // 
+  //     if(a>=1){
+  //       b = b + Math.floor(a);}
+  //   }
+  //   console.log(b);
+  //   return b;
+  
+  
+  
   // your implementation
 }
